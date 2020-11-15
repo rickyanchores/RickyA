@@ -46,6 +46,12 @@ body{
     color: $h4Color;
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
+    /*Smooth Scroll*/
+    overflow: hidden;
+    /*Smooth Scroll*/
+    overflow-y:scroll;
+    scroll-behavior:smooth;
+    scroll-snap-type:y mandatory;
 }
 button{
     background-color: $bg2Color;
