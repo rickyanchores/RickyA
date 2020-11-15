@@ -1,0 +1,22 @@
+#navbar{
+    background: #333;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        li{
+            margin: 2em;
+            a{
+                color: $greenLight;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+#navbar a:hover{
+    color: white;
+}

@@ -1,0 +1,82 @@
+
+//Colors
+$bgColor: #1C1B1B;
+$bg2Color: #3b3b3b;
+$greenLight: #1CBE92;
+$h3Color:#BDC6C3;
+$h4Color: #C7CBC9;
+
+
+//Fonts font-family: 'Lato', sans-serif;
+//font-family: 'Montserrat', sans-serif;
+
+/* IMPORT */
+@import "./grid-container";
+@import "./landpage/nav";
+@import "./landpage/logo";
+@import "./landpage/personal";
+@import "./landpage/sectionmain";
+@import "./landpage/selfdesc";
+@import "./landpage/socialmedia";
+@import "./landpage/watermark";
+@import "./mediaquery";
+
+//PAGES
+/* ABOUT */
+@import "./about/about";
+@import "./about/about-grid-container";
+
+@import "./project";
+
+/* CONTACT */
+@import "./contact/contact";
+/* FOOTER */
+
+
+
+
+/* GENERAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $bgColor;
+    color: $h4Color;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+}
+button{
+    background-color: $bg2Color;
+    border: none;
+    padding: 1.5em;
+    border-radius: 30px;
+    a{
+        text-decoration: none;
+        color: $greenLight;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+}
+button:hover{
+    background: $greenLight;
+    a{ color: white;}
+}
+
+a{
+    text-decoration: none;
+    color: $greenLight;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+/* Media query*/

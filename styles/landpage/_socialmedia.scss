@@ -1,0 +1,22 @@
+#social-media{
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        li{
+            list-style: none;
+            a{
+                font-size: 2em;
+                margin: 1em;
+                i{
+                    color: $greenLight;
+                }
+            }
+        }
+    }
+}
+#social-media i:hover{
+    color: whitesmoke;
+}

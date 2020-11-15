@@ -1,0 +1,13 @@
+#self-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: $h3Color;
+    h5{
+        font-size: 20px;
+    }
+    button{
+        width: 12em;
+        margin-top: 2em;
+    }
+}

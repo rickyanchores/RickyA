@@ -1,0 +1,35 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr 1fr;
+    grid-template-rows: 10% 60% 30%;
+    grid-template-areas: "logo logo nav nav"
+                        "personal main main R"
+                        "smedia desc desc desc";
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+#logo{
+    grid-area: logo;
+}
+#navbar{
+    grid-area: nav;
+}
+#personal{
+    grid-area: personal;
+}
+#main-title{
+    grid-area: main;
+}
+#self-desc{
+    grid-area: desc;
+}
+#social-media{
+    grid-area: smedia;
+}
+
+#watermark{
+    grid-area: R;
+}
+
+

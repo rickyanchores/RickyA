@@ -1,0 +1,23 @@
+#main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    
+    h1{
+        font-size: 80px;
+        font-family: 'Montserrat',sans-serif;
+        color: rgb(216, 215, 215);
+        font-weight: bolder;
+        line-height: 1;
+    }
+    h2{
+        font-size: 50px;
+        color: $greenLight;
+    }
+    h3{
+        font-size: 30px;
+        color: rgba(134, 133, 133, 0.836);
+    }
+}

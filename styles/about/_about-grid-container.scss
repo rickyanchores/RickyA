@@ -1,0 +1,22 @@
+#about-grid-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 1fr;
+    grid-template-areas: "logo nav"
+                         "abt abt";
+}
+#logo{
+    grid-area: logo;
+}
+
+#navbar{
+    grid-area: nav;
+}
+#about{
+    grid-area: abt;
+}
+
+
+
+

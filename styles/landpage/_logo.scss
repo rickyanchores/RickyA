@@ -1,0 +1,15 @@
+#logo{
+    background: #333;
+   display: flex;
+   align-items: center;
+   padding-left: 5em;
+   h1{
+       font-size: 50px;
+       font-weight: bolder;
+       color: $greenLight;
+   }
+}
+
+#logo h1:hover{
+    color: whitesmoke;
+}
